@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc42cc27e344f5f409426d7481b3becc, type: 3}
+  m_Name: NewQuiz
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What year did Tunisia gain independence from France?
+    responses:
+    - responseText: 1945
+      isCorrect: 0
+    - responseText: 1956
+      isCorrect: 1
+    - responseText: 1961
+      isCorrect: 0
+    - responseText: 1970
+      isCorrect: 0
+  - questionText: Who was the first president of independent Tunisia?
+    responses:
+    - responseText: Habib Bourguiba
+      isCorrect: 1
+    - responseText: Zine El Abidine Ben Ali
+      isCorrect: 0
+    - responseText: Moncef Marzouki
+      isCorrect: 0
+    - responseText: Beji Caid Essebsi
+      isCorrect: 0
+  - questionText: Which ancient civilization founded the city of Carthage in Tunisia?
+    responses:
+    - responseText: Romans
+      isCorrect: 0
+    - responseText: Phoenicians
+      isCorrect: 1
+    - responseText: Greeks
+      isCorrect: 0
+    - responseText: Egyptians
+      isCorrect: 0
+  - questionText: In what year did the Jasmine Revolution, which led to the Arab
+      Spring, take place in Tunisia?
+    responses:
+    - responseText: 2005
+      isCorrect: 0
+    - responseText: 2008
+      isCorrect: 0
+    - responseText: 2010
+      isCorrect: 0
+    - responseText: 2011
+      isCorrect: 1
+  - questionText: What was the primary language spoken in ancient Carthage?
+    responses:
+    - responseText: Latin
+      isCorrect: 0
+    - responseText: Greek
+      isCorrect: 0
+    - responseText: Punic
+      isCorrect: 1
+    - responseText: Arabic
+      isCorrect: 0
